@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+.env/
+
+# MLflow local storage
+mlflow.db
+mlflow.db-shm
+mlflow.db-wal
+mlartifacts/
+
+# DVC cache
+.dvc/cache/
