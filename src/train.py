@@ -60,7 +60,7 @@ with mlflow.start_run() as run:
     #save model
     mlflow.sklearn.log_model(
         sk_model=model,
-        name='churn_model' #just an artifact name... not version name,
+        name='churn_model', #just an artifact name... not version name,
         registered_model_name="CustomerChurnModel" #here model will be registered.. no need to seperate registering.
     )
 
